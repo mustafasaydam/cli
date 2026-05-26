@@ -107,8 +107,8 @@ importers:
         specifier: 5.59.1
         version: 5.59.1(@types/node@18.19.70)(typescript@5.9.3)
       liquidjs:
-        specifier: 10.25.0
-        version: 10.25.0
+        specifier: 10.26.0
+        version: 10.26.0
       node-fetch:
         specifier: ^3.3.2
         version: 3.3.2
@@ -140,8 +140,8 @@ importers:
         specifier: ^3.1.4
         version: 3.2.4(@types/node@18.19.70)(jiti@2.6.1)(jsdom@28.1.0)(msw@2.12.10(@types/node@18.19.70)(typescript@5.9.3))(sass@1.97.3)(tsx@4.21.0)(yaml@2.8.3)
       zod:
-        specifier: 3.24.4
-        version: 3.24.4
+        specifier: 4.4.0
+        version: 4.4.0
 
   packages/app:
     dependencies:
@@ -215,8 +215,8 @@ importers:
         specifier: 4.0.0
         version: 4.0.0
       ws:
-        specifier: 8.18.0
-        version: 8.18.0
+        specifier: 8.20.1
+        version: 8.20.1
     devDependencies:
       '@types/diff':
         specifier: ^5.0.3
@@ -295,8 +295,8 @@ importers:
   packages/cli-kit:
     dependencies:
       '@apidevtools/json-schema-ref-parser':
-        specifier: 11.7.3
-        version: 11.7.3
+        specifier: 14.0.0
+        version: 14.0.0
       '@bugsnag/js':
         specifier: 8.6.0
         version: 8.6.0
@@ -409,11 +409,11 @@ importers:
         specifier: 7.0.0
         version: 7.0.0
       liquidjs:
-        specifier: 10.25.0
-        version: 10.25.0
+        specifier: 10.26.0
+        version: 10.26.0
       lodash:
-        specifier: 4.17.23
-        version: 4.17.23
+        specifier: 4.18.1
+        version: 4.18.1
       macaddress:
         specifier: 0.5.3
         version: 0.5.3
@@ -460,8 +460,8 @@ importers:
         specifier: 4.0.0
         version: 4.0.0
       zod:
-        specifier: 3.24.4
-        version: 3.24.4
+        specifier: 4.4.0
+        version: 4.4.0
     devDependencies:
       '@types/diff':
         specifier: ^5.2.3
@@ -817,6 +817,10 @@ packages:
 
   '@apidevtools/json-schema-ref-parser@11.7.3':
     resolution: {integrity: sha512-WApSdLdXEBb/1FUPca2lteASewEfpjEYJ8oXZP+0gExK5qSfsEKBKcA+WjY6Q4wvXwyv0+W6Kvc372pSceib9w==}
+    engines: {node: '>= 16'}
+
+  '@apidevtools/json-schema-ref-parser@14.0.0':
+    resolution: {integrity: sha512-aFDb3Akt9/KIe0mKOWT+fa/3ZYRgUEMNAJMZCx1OGRC5exSf9KRAoGeTlq9mWR1ntjM0+KzQj7Gjd5N0OiM2PQ==}
     engines: {node: '>= 16'}
 
   '@ardatan/relay-compiler@12.0.3':
@@ -6843,8 +6847,8 @@ packages:
   linkify-it@5.0.0:
     resolution: {integrity: sha512-5aHCbzQRADcdP+ATqnDuhhJ/MRIqDkZX5pyjFHRRysS8vZ5AbqGEoFIb6pYHPZ+L/OC2Lc+xT8uHVVR5CAK/wQ==}
 
-  liquidjs@10.25.0:
-    resolution: {integrity: sha512-XpO7AiGULTG4xcTlwkcTI5JreFG7b6esLCLp+aUSh7YuQErJZEoUXre9u9rbdb0057pfWG4l0VursvLd5Q/eAw==}
+  liquidjs@10.26.0:
+    resolution: {integrity: sha512-Ub9FFNOLB9tdH/gB2MKkeU7x9NifoVidxAam6YWU7LUcy7Glumi6q5C3tDpWOEpeNaT8Cdwdb1axEdlvLSoyaQ==}
     engines: {node: '>=16'}
     hasBin: true
 
@@ -9068,6 +9072,18 @@ packages:
       utf-8-validate:
         optional: true
 
+  ws@8.20.1:
+    resolution: {integrity: sha512-It4dO0K5v//JtTXuPkfEOaI3uUN87iYPnqo/ZzqCoG3g8uhA66QUMs/SrM0YK7/NAu+r4LMh/9dq2A7k+rHs+w==}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: '>=5.0.2'
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+
   xml-name-validator@5.0.0:
     resolution: {integrity: sha512-EvGK8EJ3DhaHfbRlETOWAS5pO9MZITeauHKJyb8wyajUfQUenkIg2MvLDTZ4T/TgIcm3HU0TFBgWWboAZ30UHg==}
     engines: {node: '>=18'}
@@ -9157,6 +9173,9 @@ packages:
   zod@3.24.4:
     resolution: {integrity: sha512-OdqJE9UDRPwWsrHjLN2F8bPxvwJBK22EHLWtanu0LSYr5YqzsaaW3RMgmjwr8Rypg5k+meEJdSPXJZXE/yqOMg==}
 
+  zod@4.4.0:
+    resolution: {integrity: sha512-932TE3dEKhhYkEZFv6meaxLaCyg1m6LSI0ETKCIyUqIim+KgIsB/kha/4CKwDEbYgMzS5QxAe2mtDPpaHLHdsQ==}
+
 snapshots:
 
   '@acemir/cssom@0.9.31':
@@ -9198,6 +9217,11 @@ snapshots:
   '@apidevtools/json-schema-ref-parser@11.7.3':
     dependencies:
       '@jsdevtools/ono': 7.1.3
+      '@types/json-schema': 7.0.15
+      js-yaml: 4.1.1
+
+  '@apidevtools/json-schema-ref-parser@14.0.0':
+    dependencies:
       '@types/json-schema': 7.0.15
       js-yaml: 4.1.1
 
@@ -16715,7 +16739,7 @@ snapshots:
     dependencies:
       uc.micro: 2.1.0
 
-  liquidjs@10.25.0:
+  liquidjs@10.26.0:
     dependencies:
       commander: 10.0.1
 
@@ -19262,6 +19286,8 @@ snapshots:
 
   ws@8.19.0: {}
 
+  ws@8.20.1: {}
+
   xml-name-validator@5.0.0: {}
 
   xmlchars@2.2.0: {}
@@ -19322,3 +19348,5 @@ snapshots:
       zod: 3.24.4
 
   zod@3.24.4: {}
+
+  zod@4.4.0: {}

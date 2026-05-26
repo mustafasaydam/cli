@@ -102,17 +102,17 @@
     ]
   },
   "dependencies": {
-    "@apidevtools/json-schema-ref-parser": "11.7.3",
+    "@apidevtools/json-schema-ref-parser": "14.0.0",
     "@bugsnag/js": "8.6.0",
     "@graphql-typed-document-node/core": "3.2.0",
     "@iarna/toml": "2.2.5",
     "@oclif/core": "4.5.3",
-    "@shopify/toml-patch": "0.3.0",
     "@opentelemetry/api": "1.9.0",
     "@opentelemetry/core": "1.30.0",
     "@opentelemetry/exporter-metrics-otlp-http": "0.57.0",
     "@opentelemetry/resources": "1.30.0",
     "@opentelemetry/sdk-metrics": "1.30.0",
+    "@shopify/toml-patch": "0.3.0",
     "@types/archiver": "5.3.2",
     "ajv": "8.18.0",
     "ansi-escapes": "6.2.1",
@@ -140,8 +140,8 @@
     "is-wsl": "3.1.0",
     "jose": "5.9.6",
     "latest-version": "7.0.0",
-    "liquidjs": "10.25.0",
-    "lodash": "4.17.23",
+    "liquidjs": "10.26.0",
+    "lodash": "4.18.1",
     "macaddress": "0.5.3",
     "minimatch": "9.0.8",
     "mrmime": "1.0.1",
@@ -157,7 +157,7 @@
     "supports-hyperlinks": "3.1.0",
     "ts-error": "1.0.6",
     "which": "4.0.0",
-    "zod": "3.24.4"
+    "zod": "4.4.0"
   },
   "devDependencies": {
     "@types/diff": "^5.2.3",
